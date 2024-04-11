@@ -63,7 +63,7 @@ const HomePage = ({avatarImage}) => {
         <p className="text-gray-600 mt-4 text-xs sm:text-sm">Wrong email address? <span className="font-bold text-pink-500 hover:text-pink-600 hover:cursor-pointer">Change it.</span></p>
       </main>
       <footer className="text-gray-600 bg-gray-100 flex flex-col justify-start">
-        <div className="py-16 flex md:items-center lg:items-start lg:flex-row md:flex-nowrap flex-wrap flex-col border-b justify-center pl-8">
+        <div className="py-8 md:py-16 flex md:items-center lg:items-start lg:flex-row md:flex-nowrap flex-wrap flex-col border-b justify-center pl-8">
           <div className="flex flex-col justify-center items-center md:items-start w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left mb-10">
             <span className="text-xl">
               <img src="pinkLogo.png" alt="Brand Logo" className="w-28 mix-blend-darken" />
@@ -80,7 +80,7 @@ const HomePage = ({avatarImage}) => {
               <FaPinterest className="cursor-pointer" />
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-center sm:text-left">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-left">
             <div className="px-4 mr-4 text-xs sm:text-sm">
               <h2 className="title-font font-bold text-gray-900 tracking-widest mb-3">
                 For designers

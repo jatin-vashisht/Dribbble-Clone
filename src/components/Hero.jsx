@@ -40,7 +40,7 @@ const Hero = () => {
         <h1 className="text-4xl font-extrabold mb-4">
           What brings you to dribbble?
         </h1>
-        <p className="text-gray-500 mb-20">
+        <p className="text-gray-500 mb-10 md:mb-20">
           Select the options that best describe you. Don't worry, you can
           explore other options later.
         </p>
@@ -85,7 +85,7 @@ const Hero = () => {
         <p className="font-bold mt-12 mb-4">
           Anything else? You can select multiple
         </p>
-        <div className="flex flex-col gap-2 items-center justify-center">
+        <div className="flex flex-col gap-2 items-center justify-center pb-4">
           <button
             onClick={handleFinishClick}
             onKeyPress={handleKeyPress}
@@ -94,7 +94,7 @@ const Hero = () => {
           >
             {selectedCards.length === 0 ? 'Select atleast one' : 'Finish'}
           </button>
-          <p className="text-sm text-gray-400 font-bold">or Press RETURN</p>
+          <p className="hidden lg:block text-sm text-gray-400 font-bold">or Press RETURN</p>
         </div>
       </div>
     </div>
