@@ -45,8 +45,7 @@ const HomePage = ({avatarImage}) => {
               />
             </div>
             <TbShoppingBagX className="text-3xl cursor-pointer hidden md:block" />
-            {console.log(avatarImage)}
-            <img src={avatarImage && avatarImage.name != null? avatarImage.name : avatarImage} alt="Avatar" className="w-8 cursor-pointer" />
+            <img src={avatarImage && avatarImage.name != null? URL.createObjectURL(avatarImage) : avatarImage} alt="Avatar" className="w-8 h-8 rounded-full cursor-pointer" />
             <button className="hidden md:inline-flex items-center text-white bg-pink-500 border-0 px-4 py-2 focus:outline-none hover:bg-pink-600 rounded-lg text-sm mt-4 md:mt-0">
               Upload
             </button>

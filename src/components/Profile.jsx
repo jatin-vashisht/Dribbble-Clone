@@ -9,7 +9,6 @@ const Profile = ({avatarImage, setAvatarImage}) => {
   const navigate = useNavigate();
 
   const handleAvatarUpload = (e) => {
-    console.log(e);
     setAvatarImage(e.target.files[0]);
   };
 
