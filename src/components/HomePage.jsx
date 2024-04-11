@@ -9,6 +9,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { BsEnvelopeCheck } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const HomePage = ({avatarImage}) => {
   useEffect(() => {
@@ -20,17 +21,17 @@ const HomePage = ({avatarImage}) => {
     <div className="flex flex-col justify-between h-screen">
       <header className="text-gray-600 body-font border-b border-gray-300">
         <div className="container mx-auto flex flex-wrap p-5 flex-row justify-between items-center">
-          <a className="flex title-font font-medium items-center text-gray-900">
+          <Link to='#' className="flex title-font font-medium items-center text-gray-900">
             <span className="ml-3 text-xl cursor-pointer">
               <img src="blackLogo.png" alt="Nav Logo" className="w-28" />
             </span>
-          </a>
+          </Link>
           <nav className="hidden md:mr-auto md:ml-4 md:py-1 md:pl-4 lg:flex flex-wrap items-center text-sm justify-center font-bold">
-            <a className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Inspiration</a>
-            <a className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Find Work</a>
-            <a className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Learned Design</a>
-            <a className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Go Pro</a>
-            <a className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Hire Designers</a>
+            <Link to='#' className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Inspiration</Link>
+            <Link to='#' className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Find Work</Link>
+            <Link to='#' className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Learned Design</Link>
+            <Link to='#' className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Go Pro</Link>
+            <Link to='#' className="mr-6 text-gray-500 hover:text-gray-900 cursor-pointer">Hire Designers</Link>
           </nav>
           <div className="flex gap-5 items-center">
             <div className="relative hidden md:flex">
@@ -86,38 +87,38 @@ const HomePage = ({avatarImage}) => {
               </h2>
               <nav className="list-none mb-10 flex flex-col gap-3">
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Go Pro!</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Go Pro!</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Explore design work
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Design blog</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Design blog</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Overtime podcast
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Playoffs</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Playoffs</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Weekly Warm-Up
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Refer a Friend
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Code of conduct
-                  </a>
+                  </Link>
                 </li>
               </nav>
             </div>
@@ -128,19 +129,19 @@ const HomePage = ({avatarImage}) => {
                 </h2>
                 <nav className="list-none mb-10 flex flex-col gap-3">
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Post a job opening
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Post a freelance project
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Search for designers
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
@@ -150,9 +151,9 @@ const HomePage = ({avatarImage}) => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Advertise with us
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
@@ -163,35 +164,35 @@ const HomePage = ({avatarImage}) => {
               </h2>
               <nav className="list-none mb-10 flex flex-col gap-3">
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">About</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">About</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Careers</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Support</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Support</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Media kit</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Media kit</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Testimonials</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Testimonials</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">API</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">API</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Terms of service
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Privacy policy
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Cookie policy</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Cookie policy</Link>
                 </li>
               </nav>
             </div>
@@ -202,23 +203,23 @@ const HomePage = ({avatarImage}) => {
                 </h2>
                 <nav className="list-none mb-10 flex flex-col gap-3">
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">Design jobs</a>
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">Design jobs</Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Designers for hire
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Freelance designers for hire
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">Tags</a>
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">Tags</Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">Places</a>
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">Places</Link>
                   </li>
                 </nav>
               </div>
@@ -228,22 +229,22 @@ const HomePage = ({avatarImage}) => {
                 </h2>
                 <nav className="list-none mb-10 flex flex-col gap-3">
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Dribbble Marketplace
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Creative market
-                    </a>
+                    </Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">Fontsprint</a>
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">Fontsprint</Link>
                   </li>
                   <li className="cursor-pointer hover:underline">
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link to='#' className="text-gray-600 hover:text-gray-800">
                       Font Squirrel
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
@@ -254,30 +255,30 @@ const HomePage = ({avatarImage}) => {
               </h2>
               <nav className="list-none mb-10 flex flex-col gap-3">
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Freelancing</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Freelancing</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">Design Hiring</a>
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">Design Hiring</Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Design Portfolio
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Design Education
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Creative Process
-                  </a>
+                  </Link>
                 </li>
                 <li className="cursor-pointer hover:underline">
-                  <a className="text-gray-600 hover:text-gray-800">
+                  <Link to='#' className="text-gray-600 hover:text-gray-800">
                     Design Industry Trends
-                  </a>
+                  </Link>
                 </li>
               </nav>
             </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Input from "./Input";
 import { AiOutlineExclamationCircle } from "react-icons/ai";
@@ -61,7 +61,7 @@ const SignupForm = () => {
   return (
     <div className="flex h-screen items-center justify-between">
       <div className="hidden md:block md:w-1/2 h-screen lg:w-1/3">
-        <img src="/signup.png" alt="Side Image" className="h-screen" />
+        <img src="/signup.png" alt="Signup" className="h-screen" />
       </div>
       <div className="flex flex-col px-12 md:px-8 py-10 md:py-12 rounded-md md:w-[40%] items-center justify-center md:items-start mx-auto h-screen">
         <p className="text-sm md:text-base absolute top-3 lg:top-6 right-20">
