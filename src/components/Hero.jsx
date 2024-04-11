@@ -76,7 +76,7 @@ const Hero = () => {
                   </p>
                 </div>
               )}
-              <div className={`w-6 h-6 border-2 border-gray-500 rounded-full ${selectedCards.includes(index) && 'bg-pink-500 border-0 text-white'}`}>
+              <div className={`w-6 h-6 flex justify-center items-center border-2 border-gray-500 rounded-full ${selectedCards.includes(index) && 'bg-pink-500 border-0 text-white'}`}>
                 {selectedCards.includes(index) && '✔'}
               </div>
             </div>

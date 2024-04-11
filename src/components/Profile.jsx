@@ -113,7 +113,7 @@ const Profile = ({avatarImage, setAvatarImage}) => {
                       <img
                         src={src}
                         alt="default icon"
-                        className="w-12 h-12 rounded-full"
+                        className="w-8 h-8 md:w-12 md:h-12 rounded-full"
                         onClick={() => handleDefaultAvatar(src)}
                       />
                     </li>
@@ -144,7 +144,7 @@ const Profile = ({avatarImage, setAvatarImage}) => {
               Next
             </button>
             {avatarImage && location && (
-              <p className="text-gray-400 ml-4 text-sm font-bold mt-2">
+              <p className="hidden lg:block text-gray-400 ml-4 text-sm font-bold mt-2">
                 or Press RETURN
               </p>
             )}

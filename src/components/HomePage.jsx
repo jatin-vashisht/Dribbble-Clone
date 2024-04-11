@@ -20,7 +20,7 @@ const HomePage = ({avatarImage}) => {
   return (
     <div className="flex flex-col justify-between h-screen">
       <header className="text-gray-600 body-font border-b border-gray-300">
-        <div className="container mx-auto flex flex-wrap p-5 flex-row justify-between items-center">
+        <div className="container mx-auto flex flex-wrap px-5 py-2 flex-row justify-between items-center">
           <Link to='#' className="flex title-font font-medium items-center text-gray-900">
             <span className="ml-3 text-xl cursor-pointer">
               <img src="blackLogo.png" alt="Nav Logo" className="w-28" />

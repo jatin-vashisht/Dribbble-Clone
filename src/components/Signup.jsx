@@ -63,14 +63,14 @@ const SignupForm = () => {
       <div className="hidden md:block md:w-1/2 h-screen lg:w-1/3">
         <img src="/signup.png" alt="Signup" className="h-screen" />
       </div>
-      <div className="flex flex-col px-12 md:px-8 py-10 md:py-12 rounded-md md:w-[40%] items-center justify-center md:items-start mx-auto h-screen">
-        <p className="text-sm md:text-base absolute top-3 lg:top-6 right-20">
+      <div className="flex flex-col px-12 md:px-8 md:py-12 rounded-md md:w-[40%] items-center justify-center md:items-start mx-auto h-screen">
+        <p className="text-sm md:text-base absolute top-8 lg:top-10 right-20">
           Already a member?{" "}
           <Link to="#" className="text-blue-500">
             Sign In
           </Link>
         </p>
-        <h1 className={`text-2xl md:text-3xl font-bold md:mb-8 text-start`}>
+        <h1 className={`text-3xl md:text-4xl font-bold mb-6 md:mb-8 text-start`}>
           Sign up to Dribbble
         </h1>
         <div className="">
